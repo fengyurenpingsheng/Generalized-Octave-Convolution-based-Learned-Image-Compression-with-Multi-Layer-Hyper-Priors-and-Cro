@@ -20,35 +20,3 @@ RangeCoder
 Tensorflow-Compression ==1.2
     pip3 install tensorflow-compression or 
     pip3 install tensorflow_compression-1.2-cp36-cp36m-manylinux1_x86_64.whl
-Test Usage
-Download the pre-trained models (The Extraction code is i6p3. These models are optimized by PSNR using lambda = 0.0016(number filters=128)) and lambda = 0.03(number filters=256)).
-
-Run the following py files can encode or decode the input file.
-
-   python Encoder_Decoder_cvpr_blocks_leaky_GLLMM_directly_bits_github.py
-   note that:
-   endcoder_main(); // the Encoder code
-   decoder_main();  // the Decoder  code
-   path ='xxx';     // the test image 
-   save_image_name_path=''; // save the bit stream files.
-   num_filters = 128 or 256;  // 128 for low bit rates and 256 for high bit rates.
-   
-Reconstructed Samples
-Comparisons of reconstructed samples are given in the following.
-
-
-
-Evaluation Results
-
-
-Notes
-If you think it is useful for your reseach, please cite our paper.
-
-@misc{fu2021learned,
-      title={Learned Image Compression with Discretized Gaussian-Laplacian-Logistic Mixture Model and Concatenated Residual Modules}, 
-      author={Haisheng Fu and Feng Liang and Jianping Lin and Bing Li and Mohammad Akbari and Jie Liang and Guohe Zhang and Dong Liu and Chengjie Tu and Jingning Han},
-      year={2021},
-      eprint={2107.06463},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
