@@ -25,4 +25,31 @@ Recently, image compression approaches based on deep learning have gradually out
 ```
     
     
+### Test Usage
+
+* We provide an example of a test model. Download the pre-trained [models](https://pan.baidu.com/s/1VZ8EZZzX8VKJg4auKxVytQ) (The Extraction code is i6p3. The test model is optimized by PSNR using lambda = 0.02(number filters=448)).
+
+* Run the following py files can encode or decode the input file. 
+
+```
+   python icml2020_three_layers_zhengze_noside_test.py
+   note that:
+   endcoder_main(); // the Encoder code
+   decoder_main();  // the Decoder  code
+   path ='xxx';     // the test image 
+   save_image_name_path=''; // save the bit stream files.
+   num_filters = 448;  // 256 for low bit rates and 448 for high bit rates.
+   
+```
+
+## Reconstructed Samples
+
+Comparisons of reconstructed samples are given in the following.
+
+![](https://github.com/fengyurenpingsheng/Learned-image-compression-with-GLLMM/blob/main/Figure/example.png)
+
+
+## Evaluation Results
+
+![](https://github.com/fengyurenpingsheng/Learned-image-compression-with-GLLMM/blob/main/Figure/result.png)
 
