@@ -42,14 +42,3 @@ Recently, image compression approaches based on deep learning have gradually out
    
 ```
 
-## Reconstructed Samples
-
-##Comparisons of reconstructed samples are given in the following.
-
-##![](https://github.com/fengyurenpingsheng/Learned-image-compression-with-GLLMM/blob/main/Figure/example.png)
-
-
-## Evaluation Results
-
-###![](https://github.com/fengyurenpingsheng/Learned-image-compression-with-GLLMM/blob/main/Figure/result.png)
-
