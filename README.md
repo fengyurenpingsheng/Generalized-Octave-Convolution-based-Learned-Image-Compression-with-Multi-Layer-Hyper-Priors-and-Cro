@@ -34,11 +34,11 @@ Recently, image compression approaches based on deep learning have gradually out
 ```
    python icml2020_three_layers_zhengze_noside_test.py
    note that:
-   endcoder_main(); // the Encoder code
-   decoder_main();  // the Decoder  code
    path ='xxx';     // the test image 
    save_image_name_path=''; // save the bit stream files.
    num_filters = 448;  // 256 for low bit rates and 448 for high bit rates.
    
 ```
+### additional details
 
+We will provided more detail information about our paper after our paper is accepted.
